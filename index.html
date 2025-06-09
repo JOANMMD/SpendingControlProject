@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Application Personal Finance</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Control de Finanzas</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <P>application under construction</P>
+
+  <header class="navbar">
+    <h1>Finanzas Inteligentes</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Características</a>
+      <a href="#">Blog</a>
+      <a href="#login">Iniciar sesión</a>
+    </nav>
+  </header>
+
+  <section class="landing">
+    <div class="landing-text">
+      <h2>Toma el control de tus finanzas</h2>
+      <p>Registra tus gastos, ahorra y alcanza tus metas.</p>
+      <a href="#login" class="btn">Empieza ahora</a>
+    </div>
+    <div class="landing-img">
+      <img src="https://img.freepik.com/vector-premium/ilustracion-concepto-gestion-presupuesto-personal_701961-52.jpg" alt="Finanzas ilustración">
+    </div>
+  </section>
+
+  <section id="login" class="login-section">
+    <h2>Iniciar sesión</h2>
+    <form class="login-form">
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="password" placeholder="Contraseña" required>
+      <button type="submit">Entrar</button>
+    </form>
+  </section>
+
 </body>
 </html>
